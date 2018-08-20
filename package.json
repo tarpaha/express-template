@@ -1,0 +1,21 @@
+{
+  "name": "express-template",
+  "version": "1.0.0",
+  "description": "simple template for html server based on express and pug",
+  "author": "tarpaha",
+  "license": "ISC",
+  "scripts": {
+    "start": "npm run start:dev",
+    "start:dev": "nodemon app.js",
+    "start:prod": "cross-env NODE_ENV=production node app.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.6",
+    "cross-env": "^5.2.0",
+    "nodemon": "^1.18.3",
+    "pug": "^2.0.3"
+  }
+}
